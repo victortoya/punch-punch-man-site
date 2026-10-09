@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support – Punch Punch Man</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.7;
+        }
+
+        header {
+            background-color: #1c1c1e;
+            color: #ffffff;
+            padding: 24px 40px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        header h1 {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+        }
+
+        header span {
+            font-size: 14px;
+            color: #98989d;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 48px auto;
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 48px 56px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: #1d1d1f;
+        }
+
+        .subtitle {
+            font-size: 15px;
+            color: #6e6e73;
+            margin-bottom: 40px;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 10px;
+            color: #1d1d1f;
+        }
+
+        p {
+            font-size: 15px;
+            color: #3a3a3c;
+            margin-bottom: 14px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 14px;
+        }
+
+        ul li {
+            font-size: 15px;
+            color: #3a3a3c;
+            margin-bottom: 8px;
+        }
+
+        .faq-item {
+            background: #f5f5f7;
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin-bottom: 14px;
+        }
+
+        .faq-item .question {
+            font-weight: 600;
+            font-size: 15px;
+            color: #1d1d1f;
+            margin-bottom: 8px;
+        }
+
+        .faq-item .answer {
+            font-size: 15px;
+            color: #3a3a3c;
+            margin: 0;
+        }
+
+        .contact-card {
+            background: #1c1c1e;
+            border-radius: 12px;
+            padding: 28px 32px;
+            margin-top: 32px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .contact-card .label {
+            font-size: 13px;
+            color: #98989d;
+            margin-bottom: 4px;
+        }
+
+        .contact-card .email {
+            font-size: 17px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .contact-card a {
+            display: inline-block;
+            background-color: #007aff;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 22px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .contact-card a:hover {
+            background-color: #0066d6;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #e5e5ea;
+            margin: 32px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 40px;
+            font-size: 13px;
+            color: #98989d;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px 16px;
+                padding: 32px 24px;
+                border-radius: 12px;
+            }
+
+            header {
+                padding: 20px 24px;
+            }
+
+            .contact-card {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>Punch Punch Man</h1>
+            <span>Support</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Support</h2>
+        <p class="subtitle">
+            Need help with Punch Punch Man? We're here for you.
+        </p>
+
+        <h3>How to Play</h3>
+        <p>
+            Punch Punch Man is a one-tap arcade action game. Here's how it works:
+        </p>
+        <ul>
+            <li>Villains appear at the top of the screen and march toward your hero across three lanes: <strong>Left, Center, and Right</strong>.</li>
+            <li>Tap the <strong>PUNCH</strong> button that matches the villain's lane to knock them out.</li>
+            <li>Let even one villain reach your hero and it's <strong>Game Over</strong>.</li>
+            <li>Your score goes up with every successful hit. Beat your personal best!</li>
+        </ul>
+
+        <hr class="divider">
+
+        <h3>Frequently Asked Questions</h3>
+
+        <div class="faq-item">
+            <p class="question">My high score was reset. What happened?</p>
+            <p class="answer">
+                High scores are stored locally on your device. If you deleted and reinstalled the App,
+                or reset your device's settings, the score may have been cleared. Unfortunately,
+                cloud backup for scores is not available in this version.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">The game is not launching or keeps crashing.</p>
+            <p class="answer">
+                Try closing the App fully and reopening it. If the issue persists, restart your device.
+                Make sure your iOS is updated to the latest version. If you still experience crashes,
+                please contact us with your device model and iOS version.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">There is no sound or the music stopped.</p>
+            <p class="answer">
+                Check that your device is not on Silent mode (flip the mute switch on the side of
+                your iPhone). Also make sure the volume is turned up. If the issue continues, try
+                closing and reopening the App.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">I'm seeing ads. How can I opt out of personalized ads?</p>
+            <p class="answer">
+                You can opt out of personalized advertising by going to
+                <strong>Settings → Privacy & Security → Apple Advertising</strong> and turning off
+                "Personalized Ads". You will still see ads, but they will be non-personalized.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">When will more heroes be available?</p>
+            <p class="answer">
+                Additional heroes are planned for a future update. Stay tuned — the "Coming Soon"
+                slots in the hero selection screen will be unlocked in an upcoming version.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">How do I delete my data?</p>
+            <p class="answer">
+                All data (your high score) is stored locally on your device. To delete it, simply
+                delete the App from your device. We do not store any personal data on our servers.
+            </p>
+        </div>
+
+        <hr class="divider">
+
+        <h3>Contact Us</h3>
+        <p>
+            Didn't find the answer you were looking for? Send us an email and we'll get back to you
+            as soon as possible.
+        </p>
+
+        <div class="contact-card">
+            <div>
+                <p class="label">Email support</p>
+                <p class="email">toya.luckyrich@gmail.com</p>
+            </div>
+            <a href="mailto:toya.luckyrich@gmail.com">Send Email</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Punch Punch Man. All rights reserved.
+        &nbsp;·&nbsp;
+        <a href="privacy-policy.html" style="color: #98989d;">Privacy Policy</a>
+    </footer>
+
+</body>
+</html>
